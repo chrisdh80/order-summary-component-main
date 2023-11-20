@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display";
+    font-size: 16;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    background-color: lightblue;
+    place-items: center;
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.card > img {
+    width: 400px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.annual-plan > p, h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    line-height: 1.5rem;
+}
+
+.description, .annual-plan > p > span, .cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+} 
+
+.description {
+    padding-top:  1rem;
+    padding-bottom: 1rem;
+}
+
+.summary {
+    padding: 2rem;
+}
+
+.annual-plan {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.change {
+    padding-top: 0.5rem;
+    padding-left: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.proceed {
+    padding: 0.7rem 5.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    cursor: pointer;
+}
+
+.proceed:hover {
+    background-color: hsla(245, 75%, 52%, 0.5);
+}
+
+.cancel {
+   border: none; 
+   background-color: white;
+   cursor: pointer;
+}
+
+
